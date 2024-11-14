@@ -5,7 +5,7 @@ el menor de un array de 10 números
 
 
 public class ej6 {
-    public static int maximo() {
+    public static int minimo() {
         //variable
         int[] anArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int numMin = anArray[0];
@@ -20,7 +20,7 @@ public class ej6 {
     }
 
     public static void main(String[] args) {
-        System.out.println(maximo());
+        System.out.println(minimo());
     }
 }
 
