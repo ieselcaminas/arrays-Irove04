@@ -5,10 +5,9 @@ pida diez números e imprima el mayor
 
 
 public class ej5 {
-    public static int maximo() {
+    public static int maximo(int[] anArray) {
         //variable
         int numMax = 0;
-        int[] anArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
         //condicional
         for (int i = 0; i < anArray.length; i++) {
@@ -20,7 +19,8 @@ public class ej5 {
     }
 
     public static void main(String[] args) {
-        System.out.println(maximo());
+        int[] anArray = {1, 52, 388, 4, 5, 26, 17, 8, 9, 19};
+        System.out.println(maximo(anArray));
         }
     }
 
